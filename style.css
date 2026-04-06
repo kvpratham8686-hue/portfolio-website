@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* PARTICLES */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    background: rgba(15,23,42,0.6);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* HERO */
+.hero-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.hero-content span {
+    color: #38bdf8;
+}
+
+/* BUTTON FIX */
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* BUTTONS */
+.btn, .btn-outline {
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn {
+    background: #38bdf8;
+    color: black;
+}
+
+.btn-outline {
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+
+/* GRID */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* SKILLS CENTER FIX */
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.skills span {
+    padding: 8px 15px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 15px;
+}
+
+/* TITLES */
+.section-title {
+    margin-bottom: 30px;
+}
+
+/* CONTACT */
+.contact-box {
+    margin-top: 15px;
+    line-height: 2;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    margin-top: 40px;
+}
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
